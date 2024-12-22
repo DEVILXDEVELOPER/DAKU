@@ -133,7 +133,7 @@ async def help_command(update: Update, context: CallbackContext):
 async def run_attack(chat_id, ip, port, duration, context):
     try:
         process = await asyncio.create_subprocess_shell(
-            f"./MAIN {ip} {port} {duration}",
+            f"./MAIN {ip} {port} {duration} 100",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
