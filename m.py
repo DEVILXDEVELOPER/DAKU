@@ -12,7 +12,7 @@ import os
 
 # insert your Telegram bot token here
 
-bot = telebot.TeleBot('7837130437:AAHnHtp_pRmWXGTll-UKI-3BT1_SQaKS76E')
+bot = telebot.TeleBot('7635290466:AAFmas9eHoWT2i9CtZKNYVD5WnquPMlZW6c')
 
 
 
